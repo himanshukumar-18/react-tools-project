@@ -22,7 +22,7 @@ const Counter = () => {
 
     return (
         <>
-            <div className="project-counter flex flex-col items-center w-fit bg-[#ffffff32] backdrop-blur-[10px] rounded-sm px-[20px] py-[40px]">
+            <div className="project-counter flex flex-col items-center w-fit bg-[#ffffff32] backdrop-blur-[10px] rounded-sm px-[20px] py-[40px] h-fit">
                 <h1 className="display-count text-[#F4EAE6] text-[48px]">{count}</h1>
 
                 <div className="mt-[20px] flex gap-5 count-btn-wrapper">

@@ -10,6 +10,10 @@ import UserContextProvider from "./context/UserContextProvider";
 import Profile from "./components/Profile";
 import Login from "./components/Login";
 import GlobalInput from "./components/GlobalInput";
+import ToDoForm from "./components/ToDoForm";
+import Todo from "./components/Todo";
+import ToDoItems from "./components/ToDoItems";
+import RandomColor from "./components/RandomColor";
 
 export {
     Home,
@@ -23,5 +27,9 @@ export {
     UserContextProvider,
     Profile,
     Login,
-    GlobalInput
+    GlobalInput,
+    ToDoForm,
+    Todo,
+    ToDoItems,
+    RandomColor
 }

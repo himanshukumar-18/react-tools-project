@@ -1,5 +1,5 @@
 import React from 'react'
-import { Counter, Context } from '../../Input'
+import { Counter, Context, Todo, RandomColor } from '../../Input'
 
 const Project = () => {
 
@@ -10,6 +10,8 @@ const Project = () => {
         <div className='flex gap-20 deff-project'>
           <Counter />
           <Context />
+          <Todo />
+          <RandomColor />
         </div>
       </div>
     </div>

@@ -145,6 +145,19 @@ body {
         font-size: 12px;
     }
 
+    .todo {
+        width: 100%;
+    }
+
+    .todoForm {
+        justify-content: center;
+    }
+
+    .random{
+        width: 100%;
+        height: 200px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
